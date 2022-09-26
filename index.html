@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	<title>Challenge1</title>
+</head>
+<body>
+	<header>
+		<img class="logo" src="imagenes/Vector.png" alt="Logo Alura">
+		<h1 class="titheader">Encripta Vivi</h1>
+	</header>
+	<main>
+		<section>
+			<div>
+				<textarea class="input-texto" name="texto1" autofocus cols="40" rows="10" style color=#0A3871
+					placeholder="Ingrese el texto aquí"></textarea>
+				
+				
+				<p class="condiciones"><img class="vector2" src="imagenes/Vector2.png"> Solo letras minúsculas y sin acentos</p>
+				<button class="encriptar" onclick="btnEncriptar()">
+					Encriptar
+				</button>
+				
+				<button class="desencriptar" onclick="btnDesencriptar()">
+					Desencriptar
+				</button>
+			</div>
+			
+		
+		</section>
+
+		<section class="segundo-section">
+
+			<div class="caja-giphy2">
+				<img id="giphy2" src="imagenes/giphy2.gif">
+				<h1 id="tit">Esperando mensaje.</h1>
+				<textarea name="name" id="texto2" cols="40" rows="8" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+				<button id="copiar" onclick="copiar()">Copiar</button>
+			</div>
+			
+			
+		</section>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>
